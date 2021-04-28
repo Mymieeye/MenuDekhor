@@ -32,6 +32,16 @@ a:hover {
   color: #2eca6a;
   text-decoration: none;
 }
+.link-three{
+  font-size: 0.62em;
+  color: #000000;
+  transition: all .5s ease;
+}
+
+.link-three:hover {
+  text-decoration: underline;
+  color: #000000;
+}
 
 .link-two {
   color: #000000;
