@@ -9,7 +9,7 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  
+
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
@@ -20,7 +20,7 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
+  <!--  Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@400;500;700&display=swap" rel="stylesheet">
@@ -61,8 +61,9 @@
         </ul>
       </div>
 
-      
-  </nav><!-- End Header/Navbar -->
+
+  </nav>
+  <!-- End Header/Navbar -->
 
   <main id="main">
     <div style="margin: auto;">
@@ -71,60 +72,61 @@
       <br>
       <br>
     </div>
-<div class="container">
-    <div class="card-product">    
-      <div class="row">
-      <div class="img-product col-12 col-md-12 col-lg-6">            
-          <div class="slideshow-container">
+    <div class="container">
+      <div class="card-product">
+        <div class="row">
+          <div class="img-product col-12 col-md-12 col-lg-6">
+            <div class="slideshow-container">
               <div class="slides fade">
-                  <img src="assets/img/banana_choc_2.jpeg" style="width:100%">
+                <img src="assets/img/banana_choc_2.jpeg" style="width:100%">
               </div>
               <div class="slides fade">
-                  <img src="assets/img/banana_choc.png" style="width:100%">
+                <img src="assets/img/banana_choc.png" style="width:100%">
               </div>
-                                  
+
+            </div>
+            <br />
+            <div class="container-dots">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+
+            </div>
           </div>
-          <br /> 
-          <div class="container-dots">
-              <span class="dot" onclick="currentSlide(1)"></span> 
-              <span class="dot" onclick="currentSlide(2)"></span> 
-              
-          </div>
-      </div>      
-      <div class="data-product col-12 col-md-12  col-lg-6">
-          <h2>กล้วยนมสดช็อกโกแลตมอลต์</h2>
-          <div class="tab">
+          <div class="data-product col-12 col-md-12  col-lg-6">
+            <h2>กล้วยนมสดช็อกโกแลตมอลต์</h2>
+            <div class="tab">
               <button class="tablinks" onclick="openData(event, 'ingredients')" id="defaultOpen">Ingredients</button>
               <button class="tablinks" onclick="openData(event, 'step')">Step</button>
-              
+
+            </div>
+            <div id="ingredients" class="tabcontent">
+              <br>
+              <br>
+              <p>1. กล้วย </p>
+              <p>2. นมข้นหวาน</p>
+              <p>3. นม</p>
+              <p>4. ช็อกโกแลตมอลต์</p>
+
+
+
+            </div>
+            <div id="step" class="tabcontent">
+              <br>
+              <br>
+              <p>1. ตั้งหม้อไฟปานกลางใส่นมลงไป</p>
+              <p> 2. หั่นกล้วยใส่ลงไปในนม</p>
+              <p> 3. ใส่ผงช็อกโกแลตมองลงไป คนให้เข้ากัน</p>
+              <p>4. เติมนมข้นหวาน คนให้เข้ากัน เป็นอันเสร็จ</p>
+
+
+            </div>
+            <br />
+
           </div>
-          <div id="ingredients" class="tabcontent">
-            <br>
-            <br>
-            <p>1. กล้วย </p>
-            <p>2. นมข้นหวาน</p>
-            <p>3. นม</p> 
-            <p>4. ช็อกโกแลตมอลต์</p>
-
-
-
-          </div>
-          <div id="step" class="tabcontent">
-            <br>
-            <br>
-          <p>1. ตั้งหม้อไฟปานกลางใส่นมลงไป</p>
-          <p> 2. หั่นกล้วยใส่ลงไปในนม</p>
-          <p> 3. ใส่ผงช็อกโกแลตมองลงไป คนให้เข้ากัน</p>
-          <p>4. เติมนมข้นหวาน คนให้เข้ากัน เป็นอันเสร็จ</p>
-
-
-          </div>
-          <br />
-          
-      </div>  
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+
     <script>
       //Code of Slide
       var slideIndex = 1;
@@ -169,7 +171,8 @@
 
 
 
-  </main><!-- End #main -->
+  </main>
+  
 
   <!-- ======= Footer ======= -->
 
@@ -223,7 +226,7 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Template Main JS File -->
+  <!--  Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>

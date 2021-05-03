@@ -9,7 +9,7 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  
+
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
@@ -20,7 +20,7 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
+  <!--  Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@400;500;700&display=swap" rel="stylesheet">
@@ -61,7 +61,7 @@
         </ul>
       </div>
 
-      
+
   </nav><!-- End Header/Navbar -->
 
   <main id="main">
@@ -71,62 +71,63 @@
       <br>
       <br>
     </div>
-<div class="container">
-    <div class="card-product">    
-      <div class="row">
-      <div class="img-product col-12 col-md-12 col-lg-6 mx-auto text-center">            
-          <div class="slideshow-container">
+    <div class="container">
+      <div class="card-product">
+        <div class="row">
+          <div class="img-product col-12 col-md-12 col-lg-6 mx-auto text-center">
+            <div class="slideshow-container">
               <div class="slides fade">
-                  <img src="assets/img/boba_2.jpeg" style="width:100%">
+                <img src="assets/img/boba_2.jpeg" style="width:100%">
               </div>
               <div class="slides fade">
-                  <img src="assets/img/boba.png" style="width:100%">
+                <img src="assets/img/boba.png" style="width:100%">
               </div>
-                                  
+
+            </div>
+            <br />
+            <div class="container-dots">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+
+            </div>
           </div>
-          <br /> 
-          <div class="container-dots">
-              <span class="dot" onclick="currentSlide(1)"></span> 
-              <span class="dot" onclick="currentSlide(2)"></span> 
-              
-          </div>
-      </div>      
-      <div class="data-product col-12 col-md-12  col-lg-6">
-          <h2>นมน้ำตาลแดงไข่มุก</h2>
-          <div class="tab">
+          <div class="data-product col-12 col-md-12  col-lg-6">
+            <h2>นมน้ำตาลแดงไข่มุก</h2>
+            <div class="tab">
               <button class="tablinks" onclick="openData(event, 'ingredients')" id="defaultOpen">Ingredients</button>
               <button class="tablinks" onclick="openData(event, 'step')">Step</button>
-              
+
+            </div>
+            <div id="ingredients" class="tabcontent">
+              <br>
+              <br>
+              <p>1. นมสด </p>
+              <p>2. มันม่วงสุก</p>
+              <p>3. น้ำผึ้ง</p>
+
+
+
+            </div>
+            <div id="step" class="tabcontent">
+              <br>
+              <br>
+              <p>1. เริ่มจากการต้มเม็ดไข่มุก โดยต้มน้ำจนเดือด จากนั้นใส่เม็ดไข่มุกลงไปต้มเป็นเวลา 30 นาที</p>
+              <p> 2. เมื่อต้มครบ 30 นาทีแล้ว ให้เอาฝาหม้อมาปิดทิ้งไว้อีก 30 นาที</p>
+              <p> 3. เมื่อพักครบ 30 นาทีแล้วให้ตักเม็ดไข่มุกขึ้นมาล้างน้ำิจนเมือกที่ติดเม็ดไข่มุกอยู่หลุดออก</p>
+              <p>4. นำเม็ดชาไข่มุกใส่ชาม ใส่น้ำตาลทรายแดงตามลงไป คลุกให้เข้ากัน</p>
+              <p>5. จากนั้นมาทำคาราเมลน้ำตาลทรายแดง ผสมน้ำตาลทรายแดง 3 ช้อนโต๊ะกับน้ำ 1 ช้อนโต๊ะ คนให้เข้ากัน
+                เข้าไมโครเวฟประมาณ 1 นาที</p>
+              <p>6. หยอดคาราเมลลงในแก้ว จากนั้นตักไข่มุกตามลงไป</p>
+              <p>7. ใส่น้ำแข็งตามลงไป สุดท้ายเติมน้ำตาลลงไปจนเต็มแก้วเป็นอันเสร็จเรียบร้อย</p>
+
+
+            </div>
+            <br />
+
           </div>
-          <div id="ingredients" class="tabcontent">
-            <br>
-            <br>
-            <p>1. นมสด </p>
-            <p>2. มันม่วงสุก</p>
-            <p>3. น้ำผึ้ง</p> 
-
-
-
-          </div>
-          <div id="step" class="tabcontent">
-            <br>
-            <br>
-          <p>1. เริ่มจากการต้มเม็ดไข่มุก โดยต้มน้ำจนเดือด จากนั้นใส่เม็ดไข่มุกลงไปต้มเป็นเวลา 30 นาที</p>
-          <p> 2. เมื่อต้มครบ 30 นาทีแล้ว ให้เอาฝาหม้อมาปิดทิ้งไว้อีก 30 นาที</p>
-          <p> 3. เมื่อพักครบ 30 นาทีแล้วให้ตักเม็ดไข่มุกขึ้นมาล้างน้ำิจนเมือกที่ติดเม็ดไข่มุกอยู่หลุดออก</p>
-          <p>4. นำเม็ดชาไข่มุกใส่ชาม ใส่น้ำตาลทรายแดงตามลงไป คลุกให้เข้ากัน</p>
-          <p>5. จากนั้นมาทำคาราเมลน้ำตาลทรายแดง ผสมน้ำตาลทรายแดง 3 ช้อนโต๊ะกับน้ำ 1 ช้อนโต๊ะ คนให้เข้ากัน เข้าไมโครเวฟประมาณ 1 นาที</p>
-          <p>6. หยอดคาราเมลลงในแก้ว จากนั้นตักไข่มุกตามลงไป</p>
-          <p>7. ใส่น้ำแข็งตามลงไป สุดท้ายเติมน้ำตาลลงไปจนเต็มแก้วเป็นอันเสร็จเรียบร้อย</p>
-
-
-          </div>
-          <br />
-          
-      </div>  
+        </div>
+      </div>
     </div>
-  </div>
-</div>
     <script>
       //Code of Slide
       var slideIndex = 1;
@@ -171,11 +172,11 @@
 
 
 
-  </main><!-- End #main -->
+  </main>
 
   <!-- ======= Footer ======= -->
 
-  <footer >
+  <footer>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -214,16 +215,17 @@
       </div>
     </div>
 
-  </footer><!-- End  Footer -->
+  </footer>
+  <!-- End  Footer -->
 
-  
+
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Template Main JS File -->
+  <!--  Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
