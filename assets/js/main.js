@@ -1,10 +1,3 @@
-/**
-* Template Name: EstateAgency - v4.1.0
-* Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 
 (function() {
   "use strict";
